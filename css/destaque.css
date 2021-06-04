@@ -1,0 +1,69 @@
+.container {
+  color: whitesmoke;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.destaque {
+  background: rgb(0, 23, 56);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  height: calc(100vh - 160px);
+}
+
+.apresentacao1 {
+  padding-left: 14.5%;
+  width: 35%;
+}
+
+h1 {
+  font-size: 3.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.apresentacao1 p {
+  font-size: 1.3em;
+  line-height: 1.3em;
+  font-weight: lighter;
+  margin-bottom: 30px;
+}
+
+.botao2 {
+  color: rgb(26, 26, 26);
+  background-color: rgb(255, 204, 51);
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 12px;
+  margin-right: 20px;
+}
+
+.botao2:hover {
+  filter: brightness(90%);
+}
+
+.link2 {
+  font-weight: bold;
+}
+
+.link2:hover {
+  border-bottom: 2px solid #fff;
+  padding: 5px 0;
+}
+
+.apresentacao2 {
+  padding-right: 8.5%;
+  width: 35%;
+}
+
+.apresentacao2 img {
+  width: 80%;
+}
+
+.apresentacao2 img:hover {
+  opacity: 0.8;
+}
